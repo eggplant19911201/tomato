@@ -121,6 +121,7 @@
 			
 			<property name="filterChainDefinitions">
 				<value>
+					/static/html_UI/** 			= anon
 				/static/login/** 			= anon
 				/static/js/myjs/** 			= authc
 				/static/js/** 				= anon
